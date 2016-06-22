@@ -33,7 +33,6 @@ public class OrderController {
 		}
 		}catch(Exception ex){
 			System.out.println("Exception occured " + ex);
-			throw new RuntimeException("Data is Empty");
 		}
 
 		return priceMapList;
